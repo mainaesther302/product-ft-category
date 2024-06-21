@@ -1,0 +1,7 @@
+
+CREATE OR ALTER PROCEDURE deleteProduct(@Id VARCHAR(255), @Names VARCHAR(255), @Category VARCHAR(255), @Price INT)
+AS
+BEGIN
+   DELETE FROM  ProductTable 
+   WHERE Id=@Id
+END;

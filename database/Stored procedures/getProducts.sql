@@ -1,0 +1,6 @@
+CREATE OR ALTER PROCEDURE getProducts(@Id VARCHAR(255))
+AS
+BEGIN
+   SELECT * FROM ProductTable
+   
+END;
